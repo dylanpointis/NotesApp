@@ -1,0 +1,14 @@
+.navbarcontainer button{
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+nav{
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.2); 
+}
+
+
+.logoImg{
+    width: 50px
+}

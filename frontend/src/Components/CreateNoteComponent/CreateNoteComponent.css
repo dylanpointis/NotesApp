@@ -1,0 +1,14 @@
+textarea{
+    height: 20vh;
+}
+
+.createForm{
+    width: 50%;
+}
+
+
+@media screen and (max-width: 915px) {
+    .createForm{
+        width: 100%;
+    }
+}

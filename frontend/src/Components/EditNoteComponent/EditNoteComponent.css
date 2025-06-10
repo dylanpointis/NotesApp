@@ -1,0 +1,10 @@
+.editForm{
+    width: 50%;
+    padding: 2em;
+}
+
+@media screen and (max-width: 915px) {
+    .editForm{
+        width: 100%;
+    }
+}

@@ -1,0 +1,25 @@
+.homeContainer{
+    margin-top: 2em;
+    min-height: 60vh;
+}
+
+.searchContainer{
+    margin-top: 2em;
+}
+
+
+.selectCategoriesInput{
+    width: 12em;
+}
+
+
+@media screen and (max-width: 915px) {
+    .searchContainer{
+        flex-direction: column-reverse;
+    }
+
+    .selectCategoriesInput{
+        width: 10em;
+    }
+
+}

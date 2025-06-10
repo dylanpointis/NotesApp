@@ -1,0 +1,58 @@
+.noteComponent{
+    width: 24em;
+    height: 22em;
+    border: 2px solid rgb(87, 86, 86);
+    box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.2); 
+}
+
+.noteDate{
+    font-size: smaller;
+}
+
+.noteTitle{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 90%;
+}
+
+.noteContent{
+    overflow: hidden;
+    display: -webkit-box; 
+    -webkit-line-clamp: 6;
+    line-clamp: 6;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    white-space: pre-wrap; 
+}
+
+.categoryList{
+    color: rgb(99, 99, 99);
+    font-size: smaller;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 90%;
+}
+
+.actionButton{
+    background-color: transparent;
+    border: none;
+}
+
+.actionButton :hover{
+    color: rgb(86, 86, 86);
+}
+
+
+@media screen and (max-width: 915px) {
+    .noteComponent {
+        width: 14em;
+        height: 22em;
+    }
+
+    .noteContent {
+        -webkit-line-clamp: 4; /* Adjusted for smaller screens */
+        line-clamp: 4;
+    }
+}
