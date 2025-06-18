@@ -3,10 +3,11 @@
 A note-taking application developed with .NET Web API, Entity Framework Core, React, and SQL Server.
 
 ### Homepage
-![UIScreenshot](https://github.com/user-attachments/assets/40afdb46-0a43-4a71-bbab-98bb75718b6a)
+![UIScreenshot](https://github.com/user-attachments/assets/6249c30a-4149-46bf-9829-a56a5a30a050)
+
 <br><br>
 ### Edit Note page
-![UIEditScreenshot](https://github.com/user-attachments/assets/27041246-b946-490e-b35c-f4342dd183b9)
+![UIEditScreenshot](https://github.com/user-attachments/assets/46d6ab4e-8fef-42f5-a6e5-bebde276dbff)
 
 
 # Technologies Used
